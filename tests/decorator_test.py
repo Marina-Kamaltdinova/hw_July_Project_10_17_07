@@ -4,8 +4,8 @@ from selene import browser, be, by
 
 def test_steps():
     open_main_page()
-    search_for_repository('Marina-Kamaltdinova/hw_July_Project_10_17_07')
-    go_to_repository('Marina-Kamaltdinova/hw_July_Project_10_17_07')
+    search_for_repository('eroshenkoam/allure-example')
+    go_to_repository('eroshenkoam/allure-example')
     open_issue_tab()
     should_see_issue_with_name("С Новым Годом (2022)")
 
